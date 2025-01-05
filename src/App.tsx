@@ -25,7 +25,7 @@ function App() {
       <h2>{sms[smsPosition]}</h2>
       <div className="card">
         <button onClick={() => setSmsButton()}>
-         {sms.length-1 === smsPosition ? 'Volver a empezar': ' Hey! dame click'}
+         {sms.length-1 === smsPosition ? 'Volver a empezar': ' Hey! haz click'}
         </button>
       </div>
     </>
