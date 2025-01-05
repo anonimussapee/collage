@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  padding: 1px;
+  will-change: filter;
+  transition: filter 300ms;
+  width: 300px;
+  height: 350px;
+  border-radius: 50px;
+  background-image: cover;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    filter: drop-shadow(0 0 2em #f53636);
+  }
+  to {
+    filter: drop-shadow(0 0 2em #ffffffaa);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(1) .logo {
+    animation: logo-spin infinite 2s;
+  }
+}
+
+.card {
+  padding: 5px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+button{
+  border: rgb(21, 101, 230) 2px groove;
+}
